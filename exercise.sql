@@ -9,3 +9,4 @@ VALUES ('Maan', '3476 km', '149.600.000 km', '7,35×1022kg', '20-07-1969');
 ALTER TABLE planeten ADD id INT NOT NULL AUTO_INCREMENT PRIMARY KEY AFTER bezoek_datum;
 INSERT into planeten (`name`, `diameter`, `afstand`, `massa`, `bezoek_datum`, `id`) 
 VALUES ('Mars', '6794 km', '228.600.000 km', '6,39E23 kg', '?', '?');
+UPDATE planeten SET name='teenalap' WHERE id='7';
